@@ -33,6 +33,28 @@ main h2 {
   padding: 60px 0;
 }
 
+section h3 {
+  font-size: 1.75rem;
+}
+
+/* UTILITIES */
+
+.col70 {
+  width: 70%;
+}
+
+.col60 {
+  width: 60%;
+}
+
+.col40 {
+  width: 40%;
+}
+
+.col30 {
+  width: 30%;
+}
+
 .button {
   padding: 10px 20px;
 
@@ -43,6 +65,17 @@ main h2 {
   border: none;
 
   font-size: 1rem;
+}
+
+.button-2 {
+  padding: 10px 20px;
+
+  color: black;
+
+  border: 1px solid black;
+
+  font-size: 1rem;
+  font-weight: 300;
 }
 
 /* CONTAINERS */
@@ -187,10 +220,6 @@ nav ul li a {
   color: lightgray;
 }
 
-.card-offer > h3 {
-  font-size: 1.75rem;
-}
-
 .card-ul {
   line-height: 1.5rem;
 }
@@ -252,10 +281,13 @@ nav ul li a {
   display: flex;
 }
 
-.horizontal-card-offer {
-  width: 70%;
+/* SERCH PARTNER SECTION */
+
+.partner-items {
+  display: flex;
+  padding: 70px 0;
 }
 
-.horizontal-button-30 {
-  width: 30%;
+.partner-text {
+  padding: 40px;
 }
