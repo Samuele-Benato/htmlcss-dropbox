@@ -178,7 +178,8 @@ nav ul li a {
   border-bottom: 1px solid lightgray;
 }
 
-.card-offer {
+.card-offer,
+.horizontal-card-offer {
   line-height: 2rem;
 }
 
@@ -194,11 +195,13 @@ nav ul li a {
   line-height: 1.5rem;
 }
 
-.button-card {
+.button-card,
+.horizontal-button-card {
   width: 100%;
 }
 
 .card-offer,
+.horizontal-card-offer,
 .card-ul,
 .card-button {
   padding: 30px;
@@ -221,4 +224,38 @@ nav ul li a {
   padding-top: 60px;
   font-size: 1.2rem;
   padding-bottom: 20px;
+}
+
+/* HORIZONTAL CARD */
+
+.horizontal-card {
+  margin-top: 50px;
+  min-height: 200px;
+
+  border: 1px solid lightgray;
+}
+
+.horizontal-card-offer div {
+  color: lightgray;
+}
+
+.horizontal-card-offer > h3 {
+  font-size: 1.75rem;
+  padding-bottom: 20px;
+}
+
+.horizontal-card-offer > p {
+  padding-top: 30px;
+}
+
+.horizontal-card-bottom {
+  display: flex;
+}
+
+.horizontal-card-offer {
+  width: 70%;
+}
+
+.horizontal-button-30 {
+  width: 30%;
 }
