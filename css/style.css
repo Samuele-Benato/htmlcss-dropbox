@@ -22,11 +22,6 @@ img {
   max-width: 100%;
 }
 
-a {
-  text-decoration: none;
-  color: black;
-}
-
 p {
   padding: 25px 0;
   font-size: 1rem;
@@ -39,7 +34,7 @@ main h2 {
 }
 
 .button {
-  padding: 10px;
+  padding: 10px 20px;
 
   color: white;
 
@@ -106,6 +101,11 @@ main h2 {
   align-items: center;
 }
 
+nav ul li a {
+  text-decoration: none;
+  color: black;
+}
+
 /* MAIN */
 
 /* JUMBOTRON */
@@ -149,5 +149,66 @@ main h2 {
 
 .r-button {
   font-size: 1.2rem;
-  padding: 20px 20px 20px 0;
+  padding: 20px 40px 20px 0;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card {
+  margin-top: 50px;
+  min-height: 300px;
+
+  border: 1px solid lightgray;
+}
+
+.card div li {
+  padding: 10px 0;
+  list-style-type: none;
+}
+
+.card-title {
+  padding: 10px;
+  text-align: center;
+  font-size: 1.2rem;
+  border-bottom: 1px solid lightgray;
+}
+
+.card-offer {
+  line-height: 2rem;
+}
+
+.card-offer > h3 {
+  font-size: 1.75rem;
+}
+
+.card-ul {
+  line-height: 1.5rem;
+}
+
+.card-offer,
+.card-ul,
+.card-button {
+  padding: 30px;
+}
+
+.card-border-gray {
+  padding-right: 5px;
+  padding-bottom: 40px;
+  margin-left: 30px;
+  margin-bottom: 30px;
+  border-bottom: 1px solid lightgray;
+}
+
+.card-link,
+.fa-check {
+  color: #0061ff;
+}
+
+.card-ul > h4 {
+  padding-top: 60px;
+  font-size: 1.2rem;
+  padding-bottom: 20px;
 }
