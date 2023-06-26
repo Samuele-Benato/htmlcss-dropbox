@@ -155,11 +155,13 @@ nav ul li a {
 .cards {
   display: flex;
   justify-content: space-between;
+  gap: 5%;
 }
 
 .card {
   margin-top: 50px;
   min-height: 300px;
+  width: calc(95% / 3);
 
   border: 1px solid lightgray;
 }
@@ -172,12 +174,16 @@ nav ul li a {
 .card-title {
   padding: 10px;
   text-align: center;
-  font-size: 1.2rem;
+  font-size: 1rem;
   border-bottom: 1px solid lightgray;
 }
 
 .card-offer {
   line-height: 2rem;
+}
+
+.card-offer div {
+  color: lightgray;
 }
 
 .card-offer > h3 {
@@ -186,6 +192,10 @@ nav ul li a {
 
 .card-ul {
   line-height: 1.5rem;
+}
+
+.button-card {
+  width: 100%;
 }
 
 .card-offer,
