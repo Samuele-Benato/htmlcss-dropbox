@@ -4,7 +4,15 @@
   padding: 0;
 }
 
+.bg-jumbotron > * {
+  padding-top: 150px;
+}
+
 /* GENERAL */
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
 
 img {
   max-width: 100%;
@@ -15,12 +23,22 @@ a {
   color: black;
 }
 
+p {
+  padding: 25px 0;
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
 .button {
   padding: 10px;
 
   color: white;
 
   background: blue;
+
+  border: none;
+
+  font-size: 1rem;
 }
 
 /* CONTAINERS */
@@ -30,7 +48,7 @@ a {
 }
 
 .container {
-  width: 70%;
+  width: 60%;
   margin: 0 auto;
 }
 
@@ -57,13 +75,14 @@ a {
   justify-content: space-between;
   align-items: center;
 
-  /* position: fixed;
+  position: fixed;
   top: 0;
   left: 0;
-  right: 0; */
+  right: 0;
 
-  padding: 30px;
-  border: 3px dashed black;
+  padding: 20px;
+
+  background: white;
 }
 
 .header-link {
@@ -73,4 +92,46 @@ a {
   font-weight: 300;
 
   padding-right: 20px;
+
+  display: flex;
+  align-items: center;
+}
+
+/* MAIN */
+
+/* JUMBOTRON */
+
+.jb-title {
+  font-size: 5rem;
+  font-weight: 900;
+  padding-bottom: 50px;
+}
+
+.jb-content {
+  display: inline-block;
+  width: 38%;
+  font-size: 1rem;
+}
+
+.jb-image {
+  display: inline-block;
+  width: 60%;
+}
+
+.unsubscribe {
+  display: block;
+
+  padding: 10px;
+
+  border: none;
+
+  font-size: 1rem;
+
+  background: rgba(255, 255, 255, 0);
+
+  margin-top: 20px;
+}
+
+.fa-arrow-down {
+  font-size: 3rem;
 }
