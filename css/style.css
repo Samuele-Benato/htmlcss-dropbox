@@ -14,6 +14,10 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+section {
+  margin: 80px 0;
+}
+
 img {
   max-width: 100%;
 }
@@ -29,12 +33,17 @@ p {
   line-height: 1.5rem;
 }
 
+main h2 {
+  font-size: 2.5rem;
+  padding: 60px 0;
+}
+
 .button {
   padding: 10px;
 
   color: white;
 
-  background: blue;
+  background: #0061ff;
 
   border: none;
 
@@ -53,7 +62,7 @@ p {
 }
 
 .small-container {
-  width: 80%;
+  width: 90%;
   margin: 0 auto;
 }
 
@@ -108,20 +117,20 @@ p {
 }
 
 .jb-content {
-  display: inline-block;
-  width: 38%;
+  width: 30%;
+  height: 100%;
   font-size: 1rem;
 }
 
 .jb-image {
-  display: inline-block;
-  width: 60%;
+  width: 70%;
+  margin-bottom: -100px;
 }
 
 .unsubscribe {
   display: block;
 
-  padding: 10px;
+  padding: 10px 0;
 
   border: none;
 
@@ -129,9 +138,16 @@ p {
 
   background: rgba(255, 255, 255, 0);
 
-  margin-top: 20px;
+  margin: 20px 0;
 }
 
 .fa-arrow-down {
   font-size: 3rem;
+}
+
+/* SECTION CARD */
+
+.r-button {
+  font-size: 1.2rem;
+  padding: 20px 20px 20px 0;
 }
