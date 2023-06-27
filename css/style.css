@@ -112,6 +112,10 @@ section h3 {
   align-items: center;
 }
 
+.gap5 {
+  gap: 5%;
+}
+
 /* HEADER */
 
 .header-top {
@@ -151,7 +155,7 @@ nav ul li a {
 /* JUMBOTRON */
 
 .jb-title {
-  font-size: 5rem;
+  font-size: 4rem;
   font-weight: 900;
   padding-bottom: 50px;
 }
@@ -419,10 +423,45 @@ section a,
   list-style-type: none;
 }
 
+.questions li:hover {
+  border-bottom: 1px solid grey;
+}
+
 .questions li i {
   padding-right: 30px;
 }
 
-.questions li:hover {
-  border-bottom: 1px solid grey;
+/* FOOTER */
+
+footer {
+  background: #000;
+  padding: 40px 0;
+}
+
+.ul-footer {
+  line-height: 2rem;
+  list-style-type: none;
+}
+
+.list-title-footer {
+  color: white;
+  font-size: 1.25rem;
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+
+.a-footer {
+  text-decoration: none;
+  color: white;
+}
+
+.footer-bottom {
+  margin-top: 60px;
+  padding: 40px 0;
+  color: wheat;
+}
+
+.footer-bottom span {
+  border-top: 1px solid white;
+  padding: 40px 0;
 }
