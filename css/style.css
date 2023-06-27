@@ -105,6 +105,13 @@ section h3 {
   display: flex;
 }
 
+.flex-between {
+  display: flex;
+
+  justify-content: space-between;
+  align-items: center;
+}
+
 /* HEADER */
 
 .header-top {
@@ -362,4 +369,60 @@ section a,
 .block-center svg {
   width: 50%;
   margin-bottom: 30px;
+}
+
+/* BLOCK RIGHT */
+
+.world-bicycle-relief {
+  background: #d5001f;
+}
+
+.hearstcorp {
+  background: #b4d0e7;
+}
+
+.lonely-planet {
+  background: #0d2481;
+}
+
+.clear-channel {
+  background: #ffd830;
+}
+
+/* PORTA DROPBOX NELLA TUA AZIENDA */
+
+.bg-turquoise {
+  background: #b4d0e7;
+  margin-top: -80px;
+  min-height: 300px;
+  padding: 40px;
+}
+
+.border-none {
+  border: none;
+}
+
+.color-bordeux {
+  color: #61082b;
+}
+
+/* FAQ SECTION */
+
+.title-faq {
+  border-bottom: 1px solid lightgray;
+}
+
+.questions li {
+  padding: 40px 0;
+
+  border-bottom: 1px solid lightgray;
+  list-style-type: none;
+}
+
+.questions li i {
+  padding-right: 30px;
+}
+
+.questions li:hover {
+  border-bottom: 1px solid grey;
 }
