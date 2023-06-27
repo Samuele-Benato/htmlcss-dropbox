@@ -116,6 +116,42 @@ section h3 {
   gap: 5%;
 }
 
+/* HOVER */
+img:hover {
+  box-shadow: 4px 4px lightgray;
+  border-radius: 20px;
+}
+
+.button:hover {
+  padding: 10px 20px;
+
+  color: #0061ff;
+
+  background: white;
+
+  box-shadow: 4px 4px 4px 4px #0061ff;
+
+  font-size: 1rem;
+}
+
+.button-2:hover {
+  padding: 10px 20px;
+
+  color: white;
+  background: lightgrey;
+
+  border: none;
+
+  box-shadow: 4px 4px 4px 4px grey;
+
+  font-size: 1rem;
+  font-weight: 300;
+}
+
+.questions li:hover {
+  border-bottom: 1px solid grey;
+}
+
 /* HEADER */
 
 .header-top {
@@ -421,10 +457,6 @@ section a,
 
   border-bottom: 1px solid lightgray;
   list-style-type: none;
-}
-
-.questions li:hover {
-  border-bottom: 1px solid grey;
 }
 
 .questions li i {
