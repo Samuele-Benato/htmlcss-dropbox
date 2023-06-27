@@ -235,13 +235,13 @@ nav ul li a {
 .cards {
   display: flex;
   justify-content: space-between;
-  gap: 5%;
+  gap: 25px;
 }
 
 .card {
   margin-top: 50px;
   min-height: 300px;
-  width: calc(95% / 3);
+  width: calc((100% - 50px) / 3);
 
   border: 1px solid lightgray;
 }
@@ -307,6 +307,7 @@ section a,
 .horizontal-card {
   margin-top: 50px;
   min-height: 200px;
+  width: 100%;
 
   border: 1px solid lightgray;
 }
