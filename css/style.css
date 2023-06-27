@@ -117,7 +117,7 @@ section h3 {
 }
 
 /* HOVER */
-img:hover {
+section img:hover {
   box-shadow: 4px 4px lightgray;
   border-radius: 20px;
 }
@@ -198,7 +198,6 @@ nav ul li a {
 
 .jb-content {
   width: 30%;
-  height: 100%;
   font-size: 1rem;
 }
 
@@ -305,7 +304,7 @@ section a,
 /* HORIZONTAL CARD */
 
 .horizontal-card {
-  margin-top: 50px;
+  margin-top: 25px;
   min-height: 200px;
   width: 100%;
 
