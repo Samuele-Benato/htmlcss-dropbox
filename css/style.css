@@ -291,3 +291,16 @@ nav ul li a {
 .partner-text {
   padding: 40px;
 }
+
+/* SIX SLIDES SECTION */
+
+.slides {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3%;
+}
+
+.slide {
+  width: calc(100% / 3 - 2%);
+  padding-top: 30px;
+}
