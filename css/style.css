@@ -119,7 +119,6 @@ section h3 {
 /* HOVER */
 .shadow:hover {
   box-shadow: 4px 4px lightgray;
-  border-radius: 20px;
 }
 
 .button:hover {
