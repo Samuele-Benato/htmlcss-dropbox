@@ -117,7 +117,7 @@ section h3 {
 }
 
 /* HOVER */
-section img:hover {
+.shadow:hover {
   box-shadow: 4px 4px lightgray;
   border-radius: 20px;
 }
@@ -367,7 +367,7 @@ section a,
   flex-wrap: wrap;
 }
 
-.team-partner-logos svg {
+.team-partner-logos img {
   filter: invert(100%);
   width: 70%;
 }
@@ -406,7 +406,7 @@ section a,
   background: #f5f5f5;
 }
 
-.block-center svg {
+.block-center img {
   width: 50%;
   margin-bottom: 30px;
 }
