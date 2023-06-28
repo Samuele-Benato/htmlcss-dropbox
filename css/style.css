@@ -121,6 +121,11 @@ section h3 {
   box-shadow: 4px 4px lightgray;
 }
 
+.shadow-2:hover {
+  box-shadow: 0px 2px #0061ff;
+  padding-bottom: 3px;
+}
+
 .button:hover {
   padding: 10px 20px;
 
@@ -269,6 +274,12 @@ nav ul li a {
   line-height: 1.5rem;
 }
 
+.card-ul > h4 {
+  padding-top: 60px;
+  font-size: 1.2rem;
+  padding-bottom: 20px;
+}
+
 .button-card,
 .horizontal-button-card {
   width: 100%;
@@ -292,12 +303,6 @@ nav ul li a {
 section a,
 .fa-check {
   color: #0061ff;
-}
-
-.card-ul > h4 {
-  padding-top: 60px;
-  font-size: 1.2rem;
-  padding-bottom: 20px;
 }
 
 /* HORIZONTAL CARD */
