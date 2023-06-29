@@ -1,3 +1,7 @@
+:root {
+  --blue: #0061ff;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -60,7 +64,7 @@ section h3 {
 
   color: white;
 
-  background: #0061ff;
+  background: var(--blue);
 
   border: none;
 
@@ -122,18 +126,18 @@ section h3 {
 }
 
 .shadow-2:hover {
-  box-shadow: 0px 2px #0061ff;
+  box-shadow: 0px 2px var(--blue);
   padding-bottom: 3px;
 }
 
 .button:hover {
   padding: 10px 20px;
 
-  color: #0061ff;
+  color: var(--blue);
 
   background: white;
 
-  box-shadow: 4px 4px 4px 4px #0061ff;
+  box-shadow: 4px 4px 4px 4px var(--blue);
 
   font-size: 1rem;
 }
@@ -141,7 +145,7 @@ section h3 {
 .button-2:hover {
   padding: 10px 20px;
 
-  color: white;
+  color: grey;
   background: lightgrey;
 
   border: none;
@@ -302,7 +306,7 @@ nav ul li a {
 
 section a,
 .fa-check {
-  color: #0061ff;
+  color: var(--blue);
 }
 
 /* HORIZONTAL CARD */
